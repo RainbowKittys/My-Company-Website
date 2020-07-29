@@ -1,0 +1,79 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Concert One', cursive;
+    background: url("images/imgaebanner.l.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid black
+}
+
+li:hover {
+    background-color: black;
+}
+
+.navlinks {
+    background-color: aquamarine;
+    color: purple;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+    background: url("images/imgaebanner.l.jpg") no-repeat center center fixed;
+    padding: 50px 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(241, 98, 122);
+    background-color: white;
+}
+
+.introduction {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.ourpandas {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+    .pandafact {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
